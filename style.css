@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 768px ;
+    width: 1367px;
+    max-width: 100%;
+    /*min-width: 50%;*/
+    background-image: url("img/HEADER.png");
+    margin: 0 auto;
+
+}
+.container {
+    margin: 0 auto;
+    width:1110px;
+    /*height: max-content;*/
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-flow: column;
+    align-items: flex-end;
+}
+nav {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 230px;
+}
+.logo {
+}
+.menu {
+    display: flex;
+    width: 445px;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu p {
+    font-family:sans-serif;
+    text-transform: uppercase;
+    height: 16px;
+    color: white;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    /*position: relative;*/
+    margin: 0 auto;
+    width: 721px;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+.start h1 {
+    margin: 0;
+    padding: 0;
+    /*position: absolute;*/
+    font-size: 36px;
+    font-family: 'Signika Negative', sans-serif;
+    color: white;
+}
+.start h2 {
+    margin: 0;
+    padding: 0;
+    /*position: absolute;*/
+    font-size: 72px;
+    font-family: 'Signika Negative', sans-serif;
+    color: white;
+}
+.fitnessColor {
+    color: red;
+}
+
+.button {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #292929;
+    width: 322px;
+    height: 56px;
+    border-radius: 28px;
+}
+.button p {
+    color: white;
+    font-size: 14px;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform: uppercase;
+}
