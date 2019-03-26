@@ -1,14 +1,24 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    /* flex-flow: column */
 }
 header {
+    display: flex;
+    flex-wrap: wrap;
     height: 768px ;
-    width: 1367px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 1367px;
+    min-width: 30%;
     /*min-width: 50%;*/
     background-image: url("img/HEADER.png");
-    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* margin: 0 auto; */
 
 }
 .container {
@@ -20,11 +30,12 @@ header {
     justify-content: flex-start;
     flex-wrap: wrap;
     flex-flow: column;
-    align-items: flex-end;
+    /* align-items: flex-end; */
 }
 nav {
     display: flex;
-    height: fit-content;
+    /* height: fit-content; */
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -90,3 +101,164 @@ nav {
     font-family: 'Merriweather Sans', sans-serif;
     text-transform: uppercase;
 }
+.first {
+    /* width: 1367px; */
+    display: flex;
+    flex-wrap: wrap;
+    height:397px;
+    flex-flow:row;
+    /* justify-content: flex-start; */
+    width: 100%;
+    max-width: 1367px;
+    min-width: 30%;
+    
+
+}
+
+.cont1 {
+    /* margin: 0 auto; */
+    /* width:1110px; */
+    /*height: max-content;*/
+    /* padding: 20px; */
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* flex-wrap: wrap; */
+    /* flex-flow: column; */
+    background-image: url("./img/Group6.png");
+    height: 397px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content:space-around;    
+}
+.coach {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.online, .olga {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    height: 22px;
+    color: white;
+
+}
+.online {
+    text-transform: uppercase;
+}
+.transformation {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.twelwe {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    height: 36px;
+    color: #EF3A53;
+    text-transform: uppercase;
+}
+.cont2 {
+    background-image: url("./img/Group7.png");
+  height: 397px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content:space-around; 
+}
+.buttonInCont1 {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #292929; */
+    width: 200px;
+    height: 56px;
+    border-radius: 35px;
+    /* opacity: 0.5; */
+    border:white 2px solid;
+}
+.buttonInCont1 p {
+    text-transform: uppercase;
+    color: white;
+}
+
+.second {
+    display: flex;
+    flex-wrap: wrap;
+    height: 422px ;
+    width: 100%;
+    max-width: 1367px;
+    min-width: 30%;
+    /*min-width: 50%;*/
+    background-image: url("img/Group8.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.twelwe, .twelwe2 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    height: 36px;
+    color: #EF3A53;
+    text-transform: uppercase;
+}
+.cont3 {
+    width: inherit;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+/* .another {
+    /* height: 100%;
+    width: ; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content:center; 
+} */
+
+
+.third {
+    display: flex;
+    flex-wrap: wrap;
+    height:530px;
+    flex-flow:row;
+    justify-content: center;
+    width: 100%;
+    max-width: 1367px;
+    min-width: 30%;
+    /*min-width: 50%;*/
+    background-color: white;
+}
+   
+/* .cont4 {
+    width: inherit;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+} */
