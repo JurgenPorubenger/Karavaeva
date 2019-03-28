@@ -1,18 +1,20 @@
 body {
     margin: 0;
     padding: 0;
-    display: flex;
-    /* justify-content: center; */
-    flex-wrap: wrap;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*flex-wrap: wrap;*/
     /* flex-flow: column */
+
 }
 header {
-    display: flex;
-    flex-wrap: wrap;
-    height: 768px ;
+    margin: 0;
+    padding: 0;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    height: 768px;
     width: 100%;
-    max-width: 1367px;
-    min-width: 30%;
+    max-width: 1920px;
     /*min-width: 50%;*/
     background-image: url("img/HEADER.png");
     background-repeat: no-repeat;
@@ -22,34 +24,43 @@ header {
 
 }
 .container {
+    /*position: relative;*/
     margin: 0 auto;
-    width:1110px;
-    /*height: max-content;*/
-    padding: 20px;
+    /*width: inherit;*/
+    /*max-width: 1110px;*/
+    padding: 0 20px;
+    height:inherit;
+    /*width: 100%;*/
+
+}
+.firstChild {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    flex-flow: column;
-    /* align-items: flex-end; */
+    flex-direction: column;
+    width: inherit;
+    height: inherit;
 }
 nav {
     display: flex;
     /* height: fit-content; */
     flex-wrap: wrap;
-    width: 100%;
+    width: inherit;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 230px;
+        /*margin-bottom: 230px;*/
 }
-.logo {
-}
+
 .menu {
     display: flex;
-    width: 445px;
+    width: 25%;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    height: fit-content;
 }
 .menu p {
+    display: inline-block;
     font-family:sans-serif;
     text-transform: uppercase;
     height: 16px;
@@ -57,13 +68,20 @@ nav {
 }
 
 .start {
+    text-align: center;
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     /*position: relative;*/
-    margin: 0 auto;
-    width: 721px;
+    /*margin: 0 auto;*/
+    width: inherit;
     height: fit-content;
-    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+
+
+
+    /*flex-wrap: wrap;*/
+    /*align-self: center;*/
 }
 .start h1 {
     margin: 0;
@@ -87,32 +105,48 @@ nav {
 
 .button {
     text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    /*justify-content: center;*/
+    /*align-items: center;*/
     background: #292929;
     width: 322px;
     height: 56px;
     border-radius: 28px;
-}
-.button p {
+    margin: auto;
     color: white;
     font-size: 14px;
     font-family: 'Merriweather Sans', sans-serif;
     text-transform: uppercase;
 }
-.first {
+/*.button p {*/
+    /*color: white;*/
+    /*font-size: 14px;*/
+    /*font-family: 'Merriweather Sans', sans-serif;*/
+    /*text-transform: uppercase;
+}*/
+/*.start a {*/
+    /*color: white;*/
+    /*font-size: 14px;*/
+    /*font-family: 'Merriweather Sans', sans-serif;*/
+    /*text-transform: uppercase;
+}*/
+
+.firstCont {
     /* width: 1367px; */
+    margin: 0;
+    padding: 0;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     height:397px;
-    flex-flow:row;
-    /* justify-content: flex-start; */
     width: 100%;
-    max-width: 1367px;
-    min-width: 30%;
-    
-
+    /*flex-flow:row;*/
+     justify-content: center;
+    align-items: center;
+    /*width: 100%;*/
+    max-width: 1920px;
+    max-height: fit-content;
+    /*min-width: 50%;*/
 }
 
 .cont1 {
@@ -229,7 +263,7 @@ nav {
 }
 /* .another {
     /* height: 100%;
-    width: ; */
+    width: ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -237,7 +271,8 @@ nav {
     flex-flow: column;
     align-items: center;
     justify-content:center; 
-} */
+}
+ */
 
 
 .third {
