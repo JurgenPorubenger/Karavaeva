@@ -18,8 +18,8 @@ header {
     margin: 0 auto;
     padding: 0 20px;
     height:inherit;
-    max-width: 72%;
-
+    max-width: 1110px;
+    min-width: 600px;
 }
 .firstChild {
     display: flex;
@@ -217,41 +217,142 @@ nav {
     /*min-width: 50%;*/
     background-image: url("img/FonAbout.png");
 }
-   .container2 {
-    /*position: relative;*/
+   /* .container2 {
     margin: 0 auto;
-    /*width: inherit;*/
-    /*max-width: 1110px;*/
     padding: 0 20px;
     height:inherit;
     max-width: 72%;
+} */
 
-}
-
- /*.cont4 {*/
-     /*display: block;*/
-     /*height: 470px;*/
-     /*width: 323px;*/
-    /*!*width: inherit;*!*/
-    /*!*height: 100%;*!*/
-    /*!*display: flex;*!*/
-    /*!*align-items: flex-end;*!*/
-     /*background-image: url("img/Olga.png");*/
-     /*background-size: cover;*/
-/*}*/
 .aboutOlga {
-    display: inline-block;
-    /*width: 50%;*/
-    width: 660px;
+    width: inherit;
+    display: flex;
+    align-items: center;
     height: inherit;
 }
-.aboutOlga p {
+.aboutOlga p{
+    display: inline-block;
+    vertical-align: middle;
+    /*width: 50%;*/
+    /* width: 660px; */
+    /* height: inherit; */
+    line-height: 2rem;
     font-family: sans-serif;
+    font-size: 14px;
     /*display: inline-block;*/
     /*height: inherit;*/
-
+    word-wrap:break-word;
 }
-.logo {
+.logo2 {
+    margin: auto;
     display: block;
     float: right;
+}
+.four {
+    background-image: url("img/GroupPresent.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 422px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;     
+    max-width: 1920px;
+    /* word-wrap:break-word; */
+}
+.someText {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.four h2 {
+    text-transform: uppercase;
+    color: white;
+    font-family: sans-serif;
+    /* vertical-align: middle; */
+}
+
+.five {
+    height: 680px; 
+    max-width: 1920px;
+    display: flex;
+}
+
+.testimonials {
+    width: 1110px;
+    height: 180px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.testimonials p {
+    font-family: sans-serif;
+    font-size: 34px;
+    color:black;
+    font-weight: bold;
+}
+.fatParrent {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+/* .textFatGirl {
+    width: inherit;
+    display: flex;
+    align-items: center;
+    height: inherit;
+} */
+
+.textFatGirl p {
+    padding-left: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    /*width: 50%;*/
+    /* width: 660px; */
+    /* height: inherit; */
+    line-height: 2rem;
+    font-family: sans-serif;
+    font-size: 14px;
+    /*display: inline-block;*/
+    /*height: inherit;*/
+    word-wrap:break-word;
+}
+.six {
+    background-image: url("img/Only.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 422px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-direction: column;      */
+    max-width: 1920px;
+}
+.only {
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    align-self: center;
+    
+}
+.only p {
+    display: inline-block;
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 34px;
+    color: white;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center; 
+    margin: 15px;
+
 }
