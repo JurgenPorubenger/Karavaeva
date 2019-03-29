@@ -1,36 +1,24 @@
 body {
     margin: 0;
     padding: 0;
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*flex-wrap: wrap;*/
-    /* flex-flow: column */
-
 }
 header {
     margin: 0;
     padding: 0;
-    /*display: flex;*/
-    /*flex-wrap: wrap;*/
     height: 768px;
     width: 100%;
     max-width: 1920px;
-    /*min-width: 50%;*/
     background-image: url("img/HEADER.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* margin: 0 auto; */
 
 }
 .container {
-    /*position: relative;*/
     margin: 0 auto;
-    /*width: inherit;*/
-    /*max-width: 1110px;*/
     padding: 0 20px;
     height:inherit;
-    /*width: 100%;*/
+    max-width: 72%;
 
 }
 .firstChild {
@@ -43,17 +31,14 @@ header {
 }
 nav {
     display: flex;
-    /* height: fit-content; */
     flex-wrap: wrap;
     width: inherit;
     justify-content: space-between;
     align-items: center;
-        /*margin-bottom: 230px;*/
 }
-
 .menu {
     display: flex;
-    width: 25%;
+    width: 30%;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -66,27 +51,17 @@ nav {
     height: 16px;
     color: white;
 }
-
 .start {
     text-align: center;
     display: flex;
-    /*justify-content: center;*/
-    /*position: relative;*/
-    /*margin: 0 auto;*/
     width: inherit;
     height: fit-content;
     flex-direction: column;
     margin: auto;
-
-
-
-    /*flex-wrap: wrap;*/
-    /*align-self: center;*/
 }
 .start h1 {
     margin: 0;
     padding: 0;
-    /*position: absolute;*/
     font-size: 36px;
     font-family: 'Signika Negative', sans-serif;
     color: white;
@@ -94,7 +69,6 @@ nav {
 .start h2 {
     margin: 0;
     padding: 0;
-    /*position: absolute;*/
     font-size: 72px;
     font-family: 'Signika Negative', sans-serif;
     color: white;
@@ -106,8 +80,6 @@ nav {
 .button {
     text-decoration: none;
     display: block;
-    /*justify-content: center;*/
-    /*align-items: center;*/
     background: #292929;
     width: 322px;
     height: 56px;
@@ -118,21 +90,8 @@ nav {
     font-family: 'Merriweather Sans', sans-serif;
     text-transform: uppercase;
 }
-/*.button p {*/
-    /*color: white;*/
-    /*font-size: 14px;*/
-    /*font-family: 'Merriweather Sans', sans-serif;*/
-    /*text-transform: uppercase;
-}*/
-/*.start a {*/
-    /*color: white;*/
-    /*font-size: 14px;*/
-    /*font-family: 'Merriweather Sans', sans-serif;*/
-    /*text-transform: uppercase;
-}*/
 
 .firstCont {
-    /* width: 1367px; */
     margin: 0;
     padding: 0;
     display: flex;
@@ -140,24 +99,13 @@ nav {
     flex-wrap: wrap;
     height:397px;
     width: 100%;
-    /*flex-flow:row;*/
-     justify-content: center;
+    justify-content: center;
     align-items: center;
-    /*width: 100%;*/
     max-width: 1920px;
     max-height: fit-content;
-    /*min-width: 50%;*/
 }
 
 .cont1 {
-    /* margin: 0 auto; */
-    /* width:1110px; */
-    /*height: max-content;*/
-    /* padding: 20px; */
-    /* display: flex; */
-    /* justify-content: flex-start; */
-    /* flex-wrap: wrap; */
-    /* flex-flow: column; */
     background-image: url("./img/Group6.png");
     height: 397px;
     width: 50%;
@@ -203,7 +151,7 @@ nav {
 }
 .cont2 {
     background-image: url("./img/Group7.png");
-  height: 397px;
+    height: 397px;
     width: 50%;
     background-repeat: no-repeat;
     background-position: center;
@@ -218,11 +166,9 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: #292929; */
     width: 200px;
     height: 56px;
     border-radius: 35px;
-    /* opacity: 0.5; */
     border:white 2px solid;
 }
 .buttonInCont1 p {
@@ -235,9 +181,7 @@ nav {
     flex-wrap: wrap;
     height: 422px ;
     width: 100%;
-    max-width: 1367px;
-    min-width: 30%;
-    /*min-width: 50%;*/
+    max-width: 1920px;
     background-image: url("img/Group8.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -261,39 +205,53 @@ nav {
     align-items: center;
     justify-content: center;
 }
-/* .another {
-    /* height: 100%;
-    width: ;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display:flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content:center; 
-}
- */
-
-
 .third {
     display: flex;
     flex-wrap: wrap;
     height:530px;
     flex-flow:row;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100%;
-    max-width: 1367px;
-    min-width: 30%;
+    max-width: 1920px;
+    /*min-width: 30%;*/
     /*min-width: 50%;*/
-    background-color: white;
+    background-image: url("img/FonAbout.png");
 }
-   
-/* .cont4 {
-    width: inherit;
-    height: 100%;
-    display: flex;
-    flex-flow: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-} */
+   .container2 {
+    /*position: relative;*/
+    margin: 0 auto;
+    /*width: inherit;*/
+    /*max-width: 1110px;*/
+    padding: 0 20px;
+    height:inherit;
+    max-width: 72%;
+
+}
+
+ /*.cont4 {*/
+     /*display: block;*/
+     /*height: 470px;*/
+     /*width: 323px;*/
+    /*!*width: inherit;*!*/
+    /*!*height: 100%;*!*/
+    /*!*display: flex;*!*/
+    /*!*align-items: flex-end;*!*/
+     /*background-image: url("img/Olga.png");*/
+     /*background-size: cover;*/
+/*}*/
+.aboutOlga {
+    display: inline-block;
+    /*width: 50%;*/
+    width: 660px;
+    height: inherit;
+}
+.aboutOlga p {
+    font-family: sans-serif;
+    /*display: inline-block;*/
+    /*height: inherit;*/
+
+}
+.logo {
+    display: block;
+    float: right;
+}
